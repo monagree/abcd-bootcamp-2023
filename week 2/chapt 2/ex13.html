@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            /* ---ANIMATION */
+            @keyframes abcdfirstanim {
+                0% {
+                    background-color: blue;
+                    color: white;
+                    box-shadow: none;
+                }
+                50%{
+                    background-color: brown;
+                }
+                100% {
+                    background: yellow;
+                    color: black;
+                    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            /* --- */
+
+            .btn {
+                width: 120px;
+                height: 35px;
+                border: none;
+                border-radius: 25px;
+                background-color: blue;
+                color: white;
+                animation-name: abcdfirstanim;
+                animation-duration: 4s;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: ease-in;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="btn">Click Me Please</button>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+.c {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+#m {
+    background-color: yellow;
+}
+
+/* ---------------- */
+.hm{
+    color: blue;
+}

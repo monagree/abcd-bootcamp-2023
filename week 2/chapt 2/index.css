@@ -1,0 +1,18 @@
+@font-face {
+    font-family: mycustomfont;
+    src: url("mons.ttf");
+}
+
+html {
+    background-color:lavender;
+}
+
+body {
+    font-family: mycustomfont;
+}
+
+.hd {
+    color: blue;
+    font-weight: bold;
+    font-size: 20in;
+}
